@@ -1,5 +1,5 @@
 function isBracketsBalanced(str) {
-    const n = str.length;
+    let n = str.length;
     
     while (n) {
       str = str.replace(/<>|\[]|\{}|\(\)/, '');   
