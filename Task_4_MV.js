@@ -10,3 +10,4 @@ function isBracketsBalanced(str) {
 
   console.log(isBracketsBalanced('[((())()(())]]'));
   console.log(isBracketsBalanced('[[((())()(()))]]'));
+  console.log(isBracketsBalanced('[[(())()(())]]'));
